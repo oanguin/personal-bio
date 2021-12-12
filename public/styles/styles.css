@@ -1,0 +1,17 @@
+.container{
+	background-color: #eeccff;
+	padding-bottom: 10em;
+}
+
+.navbar{
+	padding-bottom: 0.5em;
+}
+
+.menu_item{
+	color: #4d004d;
+	padding-right: 0.5em;
+}
+
+body{
+	background-color: #eeccff;
+}
