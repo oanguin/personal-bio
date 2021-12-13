@@ -10,5 +10,5 @@ view =
     { title = "Homepage"
     , body =
         headerLayout
-            [ Html.text "Hello, world!" ]
+            [ Html.text "Oneal says Hi from ELM world!" ]
     }
