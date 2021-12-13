@@ -10,7 +10,7 @@ headerLayout children =
     [ Html.div [ Attr.class "container" ]
         [ Html.header [ Attr.class "navbar" ]
             [ viewLink "Home" Route.Home_
-            , viewLink "About Us" Route.AboutUs
+            , viewLink "About Me" Route.AboutMe
             ]
         , Html.main_ [] children
         ]

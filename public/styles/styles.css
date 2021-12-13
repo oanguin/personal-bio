@@ -1,6 +1,7 @@
 .container{
-	background-color: #eeccff;
+	background-color: #e0e0eb;
 	padding-bottom: 10em;
+	padding: 5em;
 }
 
 .navbar{
@@ -10,8 +11,28 @@
 .menu_item{
 	color: #4d004d;
 	padding-right: 0.5em;
+    margin-right: 0.75em;
 }
 
 body{
-	background-color: #eeccff;
+	background-color: #e0e0eb;
+}
+
+.about-me{
+	display: flex;
+	row-gap: 10px;
+	flex-direction: column;
+}
+
+.banner-image{
+	width:100%;
+    height: auto;
+	max-height: 20em;
+	padding-bottom: 2em;
+}
+
+.welcome{
+	font-family: fantasy;
+	font-size: xx-large;
+	color:#4d004d;
 }
