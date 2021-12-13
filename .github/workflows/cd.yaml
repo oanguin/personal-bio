@@ -1,0 +1,22 @@
+name: cd
+
+on:
+  push:
+    branches: [main]
+jobs:
+  cd:
+    name: cd
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+      - name: Install elm-spa
+        run: npm install -g elm-spa@latest
+      - name: Build
+        run: elm-spa build
+
+
