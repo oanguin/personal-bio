@@ -1,7 +1,6 @@
-.container{
-	background-color: #e0e0eb;
-	padding-bottom: 10em;
-	padding: 5em;
+.parent{
+	padding: 3em;
+	background-color: whitesmoke;
 }
 
 .navbar{
@@ -22,6 +21,7 @@ body{
 	display: flex;
 	row-gap: 10px;
 	flex-direction: column;
+	padding-top: 2em;
 }
 
 .banner-image{
