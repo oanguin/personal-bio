@@ -18,8 +18,8 @@ view =
 
 aboutMe : Html msg
 aboutMe =
-    Html.div [ Attr.class "about-me" ]
-        [ Html.span [] [ Html.text "Name: Oneal Anguin" ]
-        , Html.span [] [ Html.text "Profession: Software Engineer" ]
-        , Html.span [] [ Html.text "Employer: Education First" ]
+    Html.ul [ Attr.class "about-me list-group list-group-flush" ]
+        [ Html.li [ Attr.class "list-group-item" ] [ Html.text "Name: Oneal Anguin" ]
+        , Html.li [ Attr.class "list-group-item" ] [ Html.text "Profession: Software Engineer" ]
+        , Html.li [ Attr.class "list-group-item" ] [ Html.text "Employer: Education First" ]
         ]
