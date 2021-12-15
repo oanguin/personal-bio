@@ -35,4 +35,4 @@ banner =
 
 welcomeMsg : Html msg
 welcomeMsg =
-    Html.span [ Attr.class "welcome" ] [ Html.text "Welcome to Oneal's Personal Bio website." ]
+    Html.span [ Attr.class "welcome" ] [ Html.text "Welcome to Oneal's Professional Bio website." ]

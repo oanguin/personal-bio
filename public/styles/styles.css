@@ -7,12 +7,6 @@
 	padding-bottom: 0.5em;
 }
 
-.menu_item{
-	color: #4d004d;
-	padding-right: 0.5em;
-    margin-right: 0.75em;
-}
-
 body{
 	background-color: #e0e0eb;
 }
@@ -36,3 +30,12 @@ body{
 	font-size: xx-large;
 	color:#4d004d;
 }
+
+
+.navbar-nav .nav-link:hover {
+    color:  #33ccff !important;
+}
+
+/*.navbar-nav .nav-link.active {
+    color:  red !important;
+}*/
