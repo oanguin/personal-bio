@@ -1,5 +1,9 @@
-# my new project
+# Project Details
+This is a project builds a professional bio page with details related to myself.
+
+## Tools Used
 > 🌳  built with [elm-spa](https://elm-spa.dev)
+> 🌱  using [bootstrap](https://getbootstrap.com/)
 
 ## dependencies
 
@@ -22,7 +26,3 @@ elm-spa add    # add a new page to the application
 elm-spa build  # production build
 elm-spa watch  # runs build as you code (without the server)
 ```
-
-## learn more
-
-You can learn more at [elm-spa.dev](https://elm-spa.dev)
