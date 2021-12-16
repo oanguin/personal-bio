@@ -15,6 +15,7 @@ headerLayout children =
                 , Html.ul [ Attr.class "navbar-nav me-auto mb-2 mb-lg-0" ]
                     [ viewLink "Home" Route.Home_
                     , viewLink "About Me" Route.AboutMe
+                    , viewLink "Projects" Route.Projects
                     ]
                 ]
             ]
