@@ -4,6 +4,7 @@ This is a project builds a professional bio page with details related to myself.
 ## Tools Used
 > 🌳  built with [elm-spa](https://elm-spa.dev)
 > 🌱  using [bootstrap](https://getbootstrap.com/)
+> 🌱  using [bootstrap-icons](https://icons.getbootstrap.com/)
 
 ## dependencies
 

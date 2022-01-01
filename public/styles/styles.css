@@ -36,6 +36,7 @@ body{
     color:  #33ccff !important;
 }
 
-/*.navbar-nav .nav-link.active {
-    color:  red !important;
-}*/
+.about-me-label{
+	font-weight: bold;
+	padding-left: 1em;
+}
