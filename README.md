@@ -2,9 +2,9 @@
 This is a project builds a professional bio page with details related to myself.
 
 ## Tools Used
-> 🌳  built with [elm-spa](https://elm-spa.dev)
-> 🌱  using [bootstrap](https://getbootstrap.com/)
-> 🌱  using [bootstrap-icons](https://icons.getbootstrap.com/)
+* 🌳  built with [elm-spa](https://elm-spa.dev)
+* 🌱  using [bootstrap](https://getbootstrap.com/)
+* 🌱  using [bootstrap-icons](https://icons.getbootstrap.com/)
 
 ## dependencies
 
@@ -17,7 +17,7 @@ npm install -g elm elm-spa
 ## running locally
 
 ```bash
-elm-spa server  # starts this app at http:/localhost:1234
+elm-spa server  # starts this app at http://localhost:1234
 ```
 
 ### other commands
