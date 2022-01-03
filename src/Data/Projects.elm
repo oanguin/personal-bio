@@ -38,7 +38,7 @@ projects =
             "A Android paginated component."
                 ++ "This component allows developers to create dynamic customizable tables with embeded images."
       , link = "https://github.com/ojinxy/AndroidComponents"
-      , technologies = [ "Java", "Android", "GraphQL" ]
+      , technologies = [ "Java", "Android" ]
       }
     , { name = "Agrilinkages"
       , description = "A tourism enhancement project used to provide markets to farmers. This site allows customers to acces fresh produce from local farmers."

@@ -1,18 +1,26 @@
-module Pages.AboutMe exposing (aboutMe, view)
+module Pages.AboutMe exposing (aboutMe, page, view)
 
 import Header exposing (headerLayout)
 import Html exposing (..)
 import Html.Attributes as Attr
+import Page exposing (Page)
+import Request exposing (Request)
+import Shared
 import View exposing (View)
 
 
-view : View msg
-view =
+page : Shared.Model -> Request -> Page
+page shared request =
+    Page.static
+        { view = view request
+        }
+
+
+view : Request -> View msg
+view request =
     { title = "About Me"
     , body =
-        headerLayout
-            [ aboutMe
-            ]
+        headerLayout request [ aboutMe ]
     }
 
 

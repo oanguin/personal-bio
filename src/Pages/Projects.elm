@@ -6,17 +6,17 @@ import Header exposing (headerLayout)
 import Html exposing (Html)
 import Html.Attributes as Attr
 import Page
-import Request
+import Request exposing (Request)
 import Shared
 import View exposing (View)
 
 
 page : Shared.Model -> Request.With Params -> Page.With Model Msg
-page shared req =
+page shared request =
     Page.sandbox
         { init = init
         , update = update
-        , view = view
+        , view = view request
         }
 
 
@@ -52,11 +52,11 @@ update msg model =
 -- VIEW
 
 
-view : Model -> View Msg
-view model =
+view : Request -> Model -> View Msg
+view request model =
     { title = "Projects"
     , body =
-        headerLayout
+        headerLayout request
             [ Html.div [ Attr.class "row" ] (model |> List.map projectItems)
             ]
     }
