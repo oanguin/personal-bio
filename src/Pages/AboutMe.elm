@@ -28,9 +28,9 @@ aboutMe : Html msg
 aboutMe =
     Html.ul [ Attr.class "about-me list-group list-group-flush" ]
         [ aboutMeItem "Name" "Oneal Anguin"
-        , aboutMeItem "Profession" "Software Engineer"
+        , aboutMeItem "Profession" "Software Architect"
         , aboutMeItem "Moto" "While it is impossible to be omniscient; it is possible to have an insatiable thrist for knowledge."
-        , aboutMeItem "Employer" "Education First"
+        , aboutMeItem "Employer" "Guidewire"
         ]
 
 
