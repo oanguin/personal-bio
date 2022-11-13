@@ -17,6 +17,7 @@ headerLayout request children =
                     [ viewLink "Home" Route.Home_ (isActivePage request Route.Home_)
                     , viewLink "About Me" Route.AboutMe (isActivePage request Route.AboutMe)
                     , viewLink "Projects" Route.Projects (isActivePage request Route.Projects)
+                    , viewLink "Support" Route.Support (isActivePage request Route.Support)
                     ]
                 ]
             ]
