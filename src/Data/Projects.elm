@@ -11,7 +11,12 @@ type alias Project =
 
 projects : List Project
 projects =
-    [ { name = "English Live Marketing Web Site"
+    [ { name = "Tox✔er (Toxicity Checker)"
+      , description = "An iOS app for iPhone and iPad which allows you to scan barcodes of products and get nutritional data about the item as well as a detailed list of ingredients."
+      , link = "https://apps.apple.com/app/id6444345405"
+      , technologies = [ "Flutter", "Cloudflare", "TypeScript", "Swift"]
+      },
+      { name = "English Live Marketing Web Site"
       , description = "A marketing website used to attract customers."
       , link = "https://englishlive.ef.com/it-it/"
       , technologies = [ "NextJS", "React", "CSS" ]
